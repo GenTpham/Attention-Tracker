@@ -1,0 +1,15 @@
+gradio
+huggingface-hub
+torch
+transformers
+sentencepiece
+datasets
+scikit-learn
+accelerate
+numpy
+matplotlib
+seaborn
+tqdm
+streamlit
+plotly
+pandas

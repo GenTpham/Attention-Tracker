@@ -1,0 +1,42 @@
+{
+  "qwen2": {
+    "accuracy": 0.6207,
+    "precision": 0.5769,
+    "recall": 1.0,
+    "f1": 0.7317,
+    "fnr": 0.0,
+    "fpr": 0.7857,
+    "auc": 0.9807,
+    "auprc": 0.9842,
+    "tp": "60",
+    "tn": "12",
+    "fp": "44",
+    "fn": "0",
+    "evaluation_time": 27.67749834060669,
+    "samples_evaluated": 116,
+    "model_name": "qwen2",
+    "model_display_name": "Qwen2-1.5B-Instruct",
+    "dataset_name": "deepset/prompt-injections",
+    "evaluation_timestamp": 1753274435.2213435
+  },
+  "granite3": {
+    "accuracy": 0.6638,
+    "precision": 0.6061,
+    "recall": 1.0,
+    "f1": 0.7547,
+    "fnr": 0.0,
+    "fpr": 0.6964,
+    "auc": 0.9958,
+    "auprc": 0.9962,
+    "tp": "60",
+    "tn": "17",
+    "fp": "39",
+    "fn": "0",
+    "evaluation_time": 882.9654603004456,
+    "samples_evaluated": 116,
+    "model_name": "granite3",
+    "model_display_name": "Granite3-8B-Instruct",
+    "dataset_name": "deepset/prompt-injections",
+    "evaluation_timestamp": 1753275330.2653284
+  }
+}

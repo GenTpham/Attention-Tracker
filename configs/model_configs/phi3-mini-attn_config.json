@@ -1,0 +1,16 @@
+{
+    "model_info": {
+        "provider": "attn-hf",
+        "name": "phi3-attn",
+        "model_id": "microsoft/Phi-3-mini-128k-instruct"
+    },
+    "params": {
+        "temperature": 0.1,
+        "max_output_tokens": 32,
+        "important_heads": [
+            [4, 8], [5, 11], [6, 2], [6, 6],
+            [7, 12], [8, 10], [9, 7], [10, 14],
+            [11, 5], [12, 3], [13, 9], [14, 15]
+        ]
+    }
+}
